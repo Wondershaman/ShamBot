@@ -1,11 +1,13 @@
 {
-  "name": "ShamBot",
+  "name": "DefinitelyNotBot",
+  "description": "A Discord bot coded in Discord.JS, hosted using Heroku.",
   "version": "1.0.0",
-  "description": "My own Discord bot",
   "main": "bot.js",
-  "author": "WonderShaman",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
-    "discord.io": "^2.5.3",
-    "winston": "^2.4.0"
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
 }
