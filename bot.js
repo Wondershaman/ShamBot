@@ -12,7 +12,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Super') {
+    if (message.content === 'Super'|'super') {
     	message.channel.send('Sonic!');
   	}
 });
