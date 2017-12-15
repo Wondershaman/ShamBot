@@ -12,6 +12,12 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === 'Super') {
+    	message.channel.send('Sonic!');
+  	}
+});
+
+client.on('message', message => {
     if (message.content === 'bing') {
     	message.reply('BONG!');
   	}
